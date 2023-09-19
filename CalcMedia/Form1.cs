@@ -76,7 +76,14 @@ namespace CalcMedia
 
         private void button2_Click(object sender, EventArgs e) // Limpar
         {
-
+            foreach(Control controle in this.Controls)
+            {
+                if (controle is TextBox)
+                {
+                    ((TextBox)controle).Text = "";
+                }
+                this.Controls["label5"].Text = " ";
+            }
         }
        
         private void label4_Click_1(object sender, EventArgs e) // Anunciador da Média
