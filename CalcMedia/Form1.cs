@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -47,6 +48,8 @@ namespace CalcMedia
             float soma, media, valor;
             int peso = 7;
             soma = 0;
+           
+
 
                 foreach(Control controle in this.Controls)
             {
@@ -61,7 +64,11 @@ namespace CalcMedia
                 
 
                 media = soma / 10;
-                this.Controls["label5"].Text = media.ToString();
+
+                double mediaRound = Math.Round(media, 2);
+
+                this.Controls["label5"].Text = mediaRound.ToString("F2", CultureInfo.InvariantCulture);
+               
 
 
             }
