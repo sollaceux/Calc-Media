@@ -18,7 +18,7 @@ Feito à nível didático, confesso que me diverti bastante desenvolvendo e gost
 
 ## Começando
 1. Clone o repositório ou faça o download do executável.
-2. Procure na pasta em que foi salvo o aplicativo e abra o executável de nome **CalcMedia.exe**.
+2. Procure na pasta em que foi salvo o executável de nome **CalcMedia.exe** e abra-o.
 3. Insira suas notas, lembrando que:
    - Nota P1 tem peso 3;
    - Nota P2 tem peso 7.
