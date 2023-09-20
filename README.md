@@ -8,7 +8,7 @@
 </p>
 
 ## Descrição
-Um executável desenvolvido em C# para calcular a média ponderada entre duas notas (P1 + P2), possuindo a P1 peso 3, e a P2 peso 7. Interface simples, de fácil entendimento e sem necessidade de conexão à internet para funcionar. 
+Um executável desenvolvido em C# para calcular a média ponderada entre duas notas (P1 + P2), possuindo a P1 peso 3, e a P2 peso 7. Interface simples, de fácil entendimento. 
 
 Feito à nível didático, confesso que me diverti bastante desenvolvendo e gostei muito do resultado, mesmo quebrando a cabeça com o método Math.Round e suas sobrecargas. No fim, deu tudo certo e foi de grande valia. 
 
